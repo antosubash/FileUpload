@@ -95,7 +95,7 @@ namespace FileUpload.Web
                 {
                     container.UseMinio(minio =>
                     {
-                        minio.EndPoint = "localhost:9900";
+                        minio.EndPoint = "localhost:9000";
                         minio.AccessKey = "AKIAIOSFODNN7EXAMPLE";
                         minio.SecretKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
                         minio.BucketName = "test1";
